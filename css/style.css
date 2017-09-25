@@ -1,0 +1,57 @@
+.box {
+  border: 1px solid black;
+  min-width: 500px;
+}
+
+.title,.btn {
+  text-transform: uppercase;
+}
+
+
+
+.full-load-dlg {
+  border: 0px;
+  background: black;
+  height: 600px;
+}
+
+.full-load-dlg .bootstrap-select.btn-group .dropdown-menu li a:hover {
+    color: whitesmoke !important;
+    background: #bf5279 !important;
+}
+
+.full-load-dlg hr {
+  border-top: 1px solid #f8f9fa!important;
+}
+
+.full-load-dlg label,legend {
+  color: white;
+}
+
+.soldto-dlg {
+  border: 0px;
+  background: blue;
+  height: 400px;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.btn-primary {
+  background: orange;
+}
+
+
+
+fieldset.scheduler-border {
+    border: solid white 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+}
+
+legend.scheduler-border {
+    width: auto !important;
+    border: none;
+    font-size: 14px;
+}
