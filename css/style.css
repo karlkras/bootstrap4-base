@@ -3,16 +3,23 @@
   min-width: 500px;
 }
 
-.title,.btn {
+.title, .header, .btn, h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
-
+.header {
+    margin-top: 20px;
+  
+}
 
 .full-load-dlg {
   border: 0px;
   background: black;
   height: 600px;
+}
+
+.full-load-dlg h1,h2,h3, h4 {
+  color: white;
 }
 
 .full-load-dlg .bootstrap-select.btn-group .dropdown-menu li a:hover {
